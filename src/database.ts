@@ -13,7 +13,7 @@ export const config: Knex.Config = {
   useNullAsDefault: true,
   migrations: {
     extension: "ts",
-    directory: path.join(__dirname, 'database', 'migrations'),
+    directory: path.join(__dirname, '..', 'database', 'migrations'),
   },
 };
 
